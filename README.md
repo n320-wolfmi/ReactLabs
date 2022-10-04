@@ -2,7 +2,7 @@
 
 ### This is the repository and azure link for all of my React Labs in N320 going forward.
 
-Azure Link: 
+Azure Link: https://witty-glacier-0a404f80f.2.azurestaticapps.net/
 
 React Labs: 
 * Map Data Lab (current) - due October 6
