@@ -5,5 +5,8 @@
 Azure Link: https://witty-glacier-0a404f80f.2.azurestaticapps.net/
 
 React Labs: 
-* Map Data Lab (current) - due October 6
+* Map Data Lab - due October 6
 * Animation Lab - due September 29
+
+In Class Activities:
+* Calendar Application - due November 1
