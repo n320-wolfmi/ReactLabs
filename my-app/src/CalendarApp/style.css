@@ -1,0 +1,40 @@
+#calendar-container {
+    max-width: 1000px;
+}
+
+.week-view {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.day-view {
+    width: 14%;
+    height: 150px;
+    border: 1px solid #000;
+    border-radius: 7px;
+}
+
+.day-view h3 {
+    margin: 0;
+    padding-left: 4px;
+    border-bottom: 1px solid #000;
+}
+
+.day-view p {
+    font-weight: bold;
+    margin-left: 4px;
+    font-size: 13px;
+}
+
+.day-view .subtitle {
+    font-weight: normal;
+    margin-top: -8px;
+}
+
+.day-header {
+    width: 14%;
+    text-align: center;
+    height: 25px;
+    font-weight: bold;
+}

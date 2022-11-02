@@ -1,0 +1,135 @@
+[
+    {
+        "id": "1",
+        "dayNum":"1",
+        "dayName":"Sunday",
+        "events": [
+            {
+                "eventName":"NFL Football",
+                "eventLocation":"Home",
+                "eventNote":"Watch football all day.",
+                "eventTime":"1:00pm"
+            },
+            {
+                "eventName":"Chill out",
+                "eventLocation":"Home",
+                "eventNote":"Just chill out",
+                "eventTime":"7:00pm"
+            }
+        ]
+    },
+    {
+        "id": "2",
+        "dayNum":"2",
+        "dayName":"Monday",
+        "events": [
+            {
+                "eventName":"N315 Class",
+                "eventLocation":"ICTC Building",
+                "eventNote":"In person class for N315.",
+                "eventTime":"9:00am"
+            },
+            {
+                "eventName":"",
+                "eventLocation":"",
+                "eventNote":"",
+                "eventTime":""
+            }
+        ]
+    },
+    {
+        "id": "3",
+        "dayNum":"3",
+        "dayName":"Tuesday",
+        "events": [
+            {
+                "eventName":"N320 Class",
+                "eventLocation":"ICTC Building",
+                "eventNote":"In person class for N320.",
+                "eventTime":"1:30pm"
+            },
+            {
+                "eventName":"",
+                "eventLocation":"",
+                "eventNote":"",
+                "eventTime":""
+            }
+        ]
+    },
+    {
+        "id": "4",
+        "dayNum":"4",
+        "dayName":"Wednesday",
+        "events": [
+            {
+                "eventName":"",
+                "eventLocation":"",
+                "eventNote":"",
+                "eventTime":""
+            },
+            {
+                "eventName":"",
+                "eventLocation":"",
+                "eventNote":"",
+                "eventTime":""
+            }
+        ]
+    },
+    {
+        "id": "5",
+        "dayNum":"5",
+        "dayName":"Thursday",
+        "events": [
+            {
+                "eventName":"N320 Class",
+                "eventLocation":"ICTC Building",
+                "eventNote":"In person class for N320.",
+                "eventTime":"1:30pm"
+            },
+            {
+                "eventName":"",
+                "eventLocation":"",
+                "eventNote":"",
+                "eventTime":""
+            }
+        ]
+    },
+    {
+        "id": "6",
+        "dayNum":"6",
+        "dayName":"Friday",
+        "events": [
+            {
+                "eventName":"",
+                "eventLocation":"",
+                "eventNote":"",
+                "eventTime":""
+            },
+            {
+                "eventName":"",
+                "eventLocation":"",
+                "eventNote":"",
+                "eventTime":""
+            }
+        ]
+    },
+    {
+        "id": "7",
+        "dayNum":"7",
+        "dayName":"Saturday",
+        "events": [
+            {
+                "eventName":"Party Time",
+                "eventLocation":"Anywhere",
+                "eventNote":"Let's party!",
+                "eventTime":"8:00pm"
+            },
+            {
+                "eventName":"Guitar Session",
+                "eventLocation":"Home",
+                "eventNote":"Practice guitar.",
+                "eventTime":""
+            }
+        ]
+    }
+]
