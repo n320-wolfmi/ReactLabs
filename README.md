@@ -5,6 +5,7 @@
 Azure Link: https://witty-glacier-0a404f80f.2.azurestaticapps.net/
 
 React Labs: 
+* Inventory Bag Lab - due November 3
 * Map Data Lab - due October 6
 * Animation Lab - due September 29
 
