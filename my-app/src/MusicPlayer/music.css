@@ -1,0 +1,8 @@
+.active {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.notActive {
+    cursor: pointer;
+}

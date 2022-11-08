@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "title": "Right Before My Eyes",
+        "artist": "Cage the Elephant",
+        "url": "music/RightBeforeMyEyes.mp3"
+    },
+    {
+        "id": 2,
+        "title": "Blackbird",
+        "artist": "The Beatles",
+        "url": "music/Blackbird.mp3"
+    },
+    {
+        "id": 3,
+        "title": "Far Horizons",
+        "artist": "Jeremy Soule",
+        "url": "music/FarHorizons.mp3"
+    }
+]
