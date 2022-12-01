@@ -7,6 +7,9 @@ export default function SentimentGraph(predictedNum) {
     const[sentimentArr, setSentimentArr] = useState([])
 
     useEffect(() => {       
+        if(sentimentArr.length == 8) {
+            sentimentArr.shift() //shift first off of the array
+        }
         //push predicted number to the array
         setSentimentArr([...sentimentArr, predictedNum])
     }, [predictedNum])
