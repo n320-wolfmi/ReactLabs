@@ -6,34 +6,34 @@ import Bag from "./Bag"
 
 export default function Inventory() {
     //items is an array for the inventory, json data is sent via setItems
-    const[items, setItems] = useState([])
+    const [items, setItems] = useState([])
 
     //selectedItem is an object that holds info
-    const[selectedItem, selectItem] = useState({})
+    const [selectedItem, selectItem] = useState({})
 
     //setting modal on and off
-    const[showModal, setModalOpen] = useState(false)
+    const [showModal, setModalOpen] = useState(false)
 
     //
-    const[bagItems, setBagItems] = useState([])
+    const [bagItems, setBagItems] = useState([])
 
     //on component mount, load data
     useEffect(() => {
         fetch("data/items.json")
-        .then((result) => result.json())
-        .then((data) => {
-            //store data, send items to useState
-            setItems(data)
-        })
+            .then((result) => result.json())
+            .then((data) => {
+                //store data, send items to useState
+                setItems(data)
+            })
     }, [])
 
     //create our inventory list
-    const itemsList = items.map( (item) => (//for each item in the items array (from the useState)
+    const itemsList = items.map((item) => (//for each item in the items array (from the useState)
         //create an inventory item from InventoryItem.js
         <InventoryItem key={item.id} item={item} addItem={addItem} showInfo={showInfo} />
     ))
 
-    return(
+    return (
         <div>
             <Modal open={showModal} onClose={() => { setModalOpen(false) }}>
                 <div id="infoBox">
@@ -48,11 +48,11 @@ export default function Inventory() {
             <Grid container>
                 <Grid>
                     <h2>Items</h2>
-                    <List>{ itemsList }</List>
+                    <List>{itemsList}</List>
                 </Grid>
                 <Grid>
                     <h2>Bag</h2>
-                    <Bag items={bagItems} removeItem={removeItem}/>
+                    <Bag items={bagItems} removeItem={removeItem} />
                 </Grid>
             </Grid>
         </div>

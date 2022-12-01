@@ -1,0 +1,9 @@
+.SentimentAnalysis .SentimentDisplay {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+
+.SentimentAnalysis .SentimentDisplay textarea {
+    height: 75px;
+}
